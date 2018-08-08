@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    <!-- Using annotation config requires context schemas -->
+
+    <context:component-scan base-package="net.merchante.test"></context:component-scan>
+
+
+    <!--<bean id="vehicle" class="net.merchante.test.Car"></bean>-->
+    <!--<bean id="tyre" class="net.merchante.test.Tyre">-->
+        <!--<property name="brand" value="Michelin"></property>&lt;!&ndash; uses setters to assign value to field 'brand' &ndash;&gt;-->
+        <!--<constructor-arg value="BMW"></constructor-arg> &lt;!&ndash; Uses constructor to set value to field &ndash;&gt;-->
+    <!--</bean>-->
+</beans>

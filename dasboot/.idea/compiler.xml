@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="controller" target="1.7" />
+      <module name="das-boot" target="1.7" />
       <module name="model" target="1.7" />
       <module name="repository" target="1.7" />
       <module name="service" target="1.7" />

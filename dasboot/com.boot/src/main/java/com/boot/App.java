@@ -3,10 +3,7 @@ package com.boot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Hello world!
- *
- */
+//TODO: Deployment of Static Resources to web server
 @SpringBootApplication
 public class App 
 {
